@@ -30,12 +30,12 @@
 	border-radius: 3%;
 	overflow: hidden;
 	height: 0;
-	width: 100%;
 	transition: .5s ease;
 }
 .book-animated:hover .overlay
 {	
 	height: 100%;
+	width: 100%;
 	opacity: .5;
 }
 .book-animated:hover

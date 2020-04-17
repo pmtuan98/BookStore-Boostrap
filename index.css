@@ -8,15 +8,14 @@
 .navbar-brand 
 {
   font-size: 64px !important;
-  font-weight: 900;
   margin: 0 40px;
   color: #343a40 !important;
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
 }
 .navbar-brand span
 {
   color: #be1313 ;
-  font-family: cursive;
+  font-family: 'Roboto Slab', serif;
 }
 .navbar-nav 
 {
