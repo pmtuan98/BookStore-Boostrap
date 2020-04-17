@@ -3,7 +3,7 @@
 {
 	margin: 40px 0;
 	font-size: 40px;
-	font-weight: 700;
+	font-family: 'Roboto Slab', serif;
 }
 /*------- Book-list section -------*/
 .row
@@ -35,6 +35,10 @@ a, a:hover {
 	overflow: hidden;
 	height: 0;
 	transition: .5s ease;
+}
+.share-group
+{
+	padding-bottom: 10px;
 }
 .book-animated:hover .overlay
 {	
