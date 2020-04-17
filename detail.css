@@ -13,6 +13,22 @@
 	font-weight: 900;
 	font-size: 40px;
 }
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  font-size: 30px;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   position: absolute;
+   content: "\2605";
+   color: gold;
+}
 .price
 {	
 	margin-top: 20px;
